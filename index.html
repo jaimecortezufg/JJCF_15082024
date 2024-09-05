@@ -8,7 +8,8 @@
         <meta name="title" content="Aplicación para conversión de unidades de temperatura" />
         <meta name="description" content="Convierte unidades Kelvin, Farenheit y Celcius" />
         <meta name="theme-color" content="#000000" />
-        <link  rel="stylesheet" href="css/converter.css"/>
+        <link rel="stylesheet" href="css/converter.css"/>
+        <link rel="manifest" href="manifest.json" />
     </head>
     <body>
 
@@ -31,5 +32,10 @@
             <output name="output-temp" id="output-temp" for="input-temp input-unit output-unit">68 F</output>
         </form>
         <script src="js/converter.js"></script>
+        <script>
+            if('serviceWorker' in navigator){
+                navigator.serviceWorker.register('sw.js',{scope: './'});
+            }
+        </script>
     </body>
 </html>

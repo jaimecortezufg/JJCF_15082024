@@ -1,0 +1,27 @@
+{
+    "lang": "en-us",
+    "name": "App para converit unidades de temperatura",
+    "short_name": "Convertidor de temperatura",
+    "description": "Un básico convertidor de temperaturas de unidades Celsius, Kelvin y Fahrenheit",
+    "start_url": "./",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "./media/icon/icon512.png",
+            "sizes": "512x512"
+        }
+    ],
+	"screenshots": [
+        {
+        "src": "./media/screenshots/screenshot1.png",
+        "sizes": "1600x800",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "CONVERSOR DE TEMPERATURA"
+        }
+    ]
+
+}
